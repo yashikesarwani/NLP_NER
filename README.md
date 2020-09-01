@@ -9,6 +9,7 @@ Google Inc. -> GOOG
 
 <br>
 <b>In Natural Language Processing (NLP), Named Entity Recognition (NER) is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on.</b><br> 
+<br>
 Information about labels:<br>
 
 geo = Geographical Entity<br>
