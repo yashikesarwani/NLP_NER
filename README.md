@@ -12,22 +12,16 @@ Google Inc. -> GOOG
 In Natural Language Processing (NLP) an Entity Recognition is one of the common problem. The entity is referred to as the part of the text that is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on. Information about lables:
 
 geo = Geographical Entity
-
 org = Organization
-
 per = Person
-
 gpe = Geopolitical Entity
-
 tim = Time indicator
-
 art = Artifact
-
 eve = Event
-
 nat = Natural Phenomenon
 
-After aextracting the company name by finding organization entity using NER, we map it to their symbol and then find the securrity and securties
+After aextracting the company name by finding organization entity using NER, we map it to their symbol and then find the security and securties and dump the results into a json format.
+
 Input:
 Apple , Amazon and Microsoft are reporting earnings after market close on April 30th .
 
