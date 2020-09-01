@@ -8,7 +8,7 @@ Apple Inc. -> AAPL <br>
 Google Inc. -> GOOG
 
 <br>
-<b>In Natural Language Processing (NLP), Named Entity Recognition (NER) is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on. Information about labels:
+<b>In Natural Language Processing (NLP), Named Entity Recognition (NER) is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on.</b> Information about labels:
 
 geo = Geographical Entity<br>
 org = Organization<br>
@@ -22,9 +22,9 @@ nat = Natural Phenomenon<br>
 <br>
 After extracting the company name by finding organization entity using NER, we map it to their symbol and then find the security and securties and dump the results into a json format.<br>
 
-Input:
+Input:<br>
 Apple , Amazon and Microsoft are reporting earnings after market close on April 30th .<br>
 
-Output:
+Output:<br>
 security: ['AAPL'] <br>
 securities:  ['AAPL', 'AMZN', 'MSFT']
